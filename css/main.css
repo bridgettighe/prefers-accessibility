@@ -63,12 +63,10 @@ html {
 
 
 /* stylelint-disable media-feature-name-no-unknown */
-
 @media (prefers-color-scheme: dark) {
   main {
     background-color: #111;
   }
-
 }
 
 @media (prefers-reduced-motion) {
@@ -78,6 +76,8 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
-
+  main {
+    color: #fff;
+  }
 }
 /* stylelint-enable */
